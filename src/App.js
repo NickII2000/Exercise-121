@@ -11,6 +11,7 @@ function App() {
         </p>
         <p><b>"Моя твоя понимает!"</b></p>
         <p><b>"Моя твоя понимает!"</b></p>
+        <p><b>"Моя твоя понимает!"</b></p>
         <a
           className="App-link"
           href="https://reactjs.org"
