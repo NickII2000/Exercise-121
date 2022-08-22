@@ -18,7 +18,7 @@ const elem = (
   <div>
     <h2 className='text'>Текст: {text}, {3 * 3}, {['1', '2']}</h2>
     <input type='text' />
-    <label for=''></label>
+    <label htmlFor=''></label>
     <button tabIndex='0'>Кнопочка</button>
     <button />
   </div>
