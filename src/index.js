@@ -18,7 +18,7 @@ const elem = (
   <div>
     <h2>Текст: {text}, {3 * 3}, {['1', '2']}</h2>
     <input type='text' />
-    <button>Кнопочка</button>
+    <button tabIndex='0'>Кнопочка</button>
     <button />
   </div>
 );
