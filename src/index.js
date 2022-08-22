@@ -9,8 +9,8 @@ import './index.css';
 import App from './App';
 // пока удален, Ex. 122   import reportWebVitals from './reportWebVitals';
 
-// const elem = <h2>Hello World!</h2>;
-const elem = React.createElement('h2', { className: 'greetings' }, 'Hello World!');
+const elem = <h2>Hello World!</h2>;
+// const elem = React.createElement('h2', { className: 'greetings' }, 'Hello World!');
 
 // const element = {
 //   type: 'h2',
