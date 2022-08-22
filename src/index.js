@@ -10,7 +10,15 @@ import App from './App';
 // пока удален, Ex. 122   import reportWebVitals from './reportWebVitals';
 
 // const elem = <h2>Hello World!</h2>;
-const elem = React.createElement('h2', null, 'Hello World!');
+const elem = React.createElement('h2', { className: 'greetings' }, 'Hello World!');
+
+// const element = {
+//   type: 'h2',
+//   props: {
+//     className: 'greeting',
+//     children: 'Hello World! Привет, Мир!'
+//   }
+// };
 
 // version 18
 // const root = ReactDOM.createRoot(document.getElementById('root'));
