@@ -9,6 +9,8 @@ import './index.css';
 import App from './App';
 // пока удален, Ex. 122   import reportWebVitals from './reportWebVitals';
 
+const elem = <h2>Hello World!</h2>
+
 // version 18
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
