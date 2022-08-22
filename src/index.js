@@ -16,7 +16,7 @@ const text = 'Hello World!';
 
 const elem = (
   <div>
-    <h2>Текст: {text}, {3 * 3}, {new Date()}</h2>
+    <h2>Текст: {text}, {3 * 3}, {['1', '2']}</h2>
     <input type='text' />
     <button>Кнопочка</button>
     <button />
