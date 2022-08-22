@@ -16,7 +16,7 @@ const text = 'Hello World!';
 
 const elem = (
   <div>
-    <h2>{text}</h2>
+    <h2>Текст: {text}</h2>
     <input type='text' />
     <button>Кнопочка</button>
     <button />
