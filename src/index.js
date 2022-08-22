@@ -6,10 +6,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
-import App from './App';
+// import App from './App';
 // пока удален, Ex. 122   import reportWebVitals from './reportWebVitals';
 
-const elem = <h2>Hello World!</h2>
+const elem = <h2>Hello World!</h2>;
 
 // version 18
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,9 +21,10 @@ const elem = <h2>Hello World!</h2>
 
 // version 17
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+  elem,
   document.getElementById('root')
 );
 
