@@ -15,6 +15,7 @@ const elem = (
   <div>
     <h2>Hello World</h2>
     <input type='text' />
+    <button>Кнопочка</button>
     <button />
   </div>
 );
