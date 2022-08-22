@@ -6,7 +6,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
-// import App from './App';
+import App from './App';
 // пока удален, Ex. 122   import reportWebVitals from './reportWebVitals';
 
 const elem = <h2>Hello World!</h2>;
