@@ -21,6 +21,7 @@ const elem = (
     <label htmlFor=''></label>
     <p></p>
     <button tabIndex='0'>Кнопочка</button>
+    <p></p>
     <button />
   </div>
 );
