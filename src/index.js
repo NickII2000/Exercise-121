@@ -19,6 +19,7 @@ const elem = (
     <h2 className='text'>Текст: {text}, {3 * 3}, {['1', '2']}</h2>
     <input type='text' />
     <label htmlFor=''></label>
+    <p></p>
     <button tabIndex='0'>Кнопочка</button>
     <button />
   </div>
