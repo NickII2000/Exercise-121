@@ -11,9 +11,11 @@ const Field = () => {
 
 function Btn() {
   const text = 'Log in';
+  const logged = true;
+
 
   const p = <p>Log in</p>;
-  return <button>{3 + 4}</button>;
+  return <button>{logged ? 'Enter' : text}</button>;
 }
 
 function App() {
