@@ -6,11 +6,13 @@ const Header = () => {
 }
 
 const Field = () => {
-  return <input placeholder='Type here' type='text' />
+  return <input placeholder='Type here' type='text' />;
 }
 
 function Btn() {
-  return <button />
+  // const text = 'Log in';
+  const res = () => 'Log in';
+  return <button>{res()}</button>;
 }
 
 function App() {
