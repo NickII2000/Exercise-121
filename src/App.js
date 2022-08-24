@@ -11,7 +11,10 @@ const Field = () => {
     width: '300px',
     height: '50px'
   };
-  return <input placeholder={holder} type='text' style={styledField} />;
+  return <input
+    placeholder={holder}
+    type='text'
+    style={styledField} />;
 }
 
 function Btn() {
