@@ -6,7 +6,7 @@ const Header = () => {
 }
 
 const Field = () => {
-  const holder = 'Enter here';
+  const holder = 'Enter here!';
   return <input placeholder={holder} type='text' />;
 }
 
