@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-const = Header = () => {
+const Header = () => {
   return <h2>Hello World!</h2>
 }
 
