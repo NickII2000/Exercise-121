@@ -12,7 +12,8 @@ const Field = () => {
 function Btn() {
   // const text = 'Log in';
   const res = () => 'Log in';
-  return <button>{res()}</button>;
+  const p = <p>Log in</p>;
+  return <button>{p}</button>;
 }
 
 function App() {
