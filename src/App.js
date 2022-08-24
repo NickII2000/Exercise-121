@@ -13,7 +13,7 @@ function Btn() {
   // const text = 'Log in';
   // const res = () => 'Log in';
   const p = <p>Log in</p>;
-  return <button>{p}</button>;
+  return <button>{p}  {3 + 4}</button>;
 }
 
 function App() {
