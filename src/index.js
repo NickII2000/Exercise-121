@@ -5,16 +5,7 @@ import App from './App';
 
 const text = 'Hello World!';
 
-const elem = (
-  <div>
-    <h2 className='text'>Текст: {text}</h2>
-    <input type='text' />
-    <label htmlFor=''></label>
-    <button tabIndex='0'>Click</button>
-  </div>
-);
-
 ReactDOM.render(
-  elem,
+  <App />,
   document.getElementById('root')
 );
