@@ -6,8 +6,12 @@ const Header = () => {
 }
 
 const Field = () => {
-  const holder = 'Enter here!';
-  return <input placeholder={holder} type='text' />;
+  const holder = 'Enter here';
+  const styledField = {
+    width: '300px',
+    height: '50px'
+  };
+  return <input placeholder={holder} type='text' style={styledField} />;
 }
 
 function Btn() {
