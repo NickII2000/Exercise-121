@@ -1,4 +1,4 @@
-import { Component, StrictMode } from 'react';
+// import { Component, StrictMode } from 'react';
 import './App.css';
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
 //     style={styledField} />;
 // }
 
-class Field extends Component {
+class Field extends React.Component {
   render() {
     const holder = 'Enter here';
     const styledField = {
