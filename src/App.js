@@ -1,9 +1,7 @@
 import { Component, StrictMode } from 'react';
 import './App.css';
 
-const Header = () => {
-  return <h2>Hello World!</h2>
-}
+const Header = () => <h2>Hello World!</h2>;
 
 // const Field = () => {
 //   const holder = 'Enter here';
