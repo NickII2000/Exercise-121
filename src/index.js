@@ -17,9 +17,9 @@ const text = 'Hello World!';
 
 const elem = (
   <div>
-    <h2 className='text'>Текст: {text}, {3 * 3}, {['1', '2']}</h2>
+    <h2 className='text'>Текст: {text}, {3 * 3}, {['1', '2']}</h2> // className вместо class
     <input type='text' />
-    <label htmlFor=''></label>
+    <label htmlFor=''></label> // htmlFor вместо for
     <br />
     <br />
     <button tabIndex='0'>Кнопочка</button>
