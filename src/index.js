@@ -2,6 +2,7 @@ import React from 'react';
 
 // version 18
 // import ReactDOM from 'react-dom/client';
+
 // version version 17
 import ReactDOM from 'react-dom';
 
