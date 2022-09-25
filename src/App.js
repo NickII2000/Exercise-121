@@ -21,8 +21,8 @@ class Field extends Component {
   render() {
     const holder = 'Enter here';
     const styledField = {
-      width: '500px',
-      height: '100px'
+      width: '300px',
+      height: '50px'
     };
     return <input
       placeholder={holder}
